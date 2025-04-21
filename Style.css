@@ -6,8 +6,12 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(#000000, #111111);
+  background-image: url("img/BG.png"); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   color: white;
+  min-height: 100vh;
 }
 
 
@@ -172,4 +176,18 @@ nav ul li a:hover {
   font-size: 30px;
   color: white;
   cursor: pointer;
+}
+.slide-track {
+  display: flex;
+  width: calc(300px * 1); /* ปรับตามจำนวนรูป */
+  animation: scroll 7s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
