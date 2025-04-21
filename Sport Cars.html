@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sports Car Showroom</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">APEX MOTORS</div>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Trips</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="search-bar">
+    <input type="text" placeholder="Enter Keyword...">
+  </div>
+</header>
+
+<section class="hero">
+  <h1>The Ultimate <span>Sports Car</span></h1>
+</section>
+
+<section class="slider">
+  <div class="slide-track">
+    
+    <div class="slide">
+      <img src="img/Lambo.png" alt="Car 1">
+      <div class="car-info">
+        <h3>Lamborghini Huracan</h3>
+        <p>$500,000</p>
+        <a href="https://www.lamborghini.com/en-en/models/huracan" target="_blank">
+          <button>Details</button>
+        </a>
+      </div>
+    </div>
+
+    <div class="slide">
+      <img src="img/Mc.png" alt="Car 2">
+      <div class="car-info">
+        <h3>Mclaren 720s</h3>
+        <p>$350,000</p>
+        <a href="https://cars.mclaren.com/en/super-series/720s" target="_blank">
+          <button>Details</button>
+        </a>
+      </div>
+    </div>
+
+    <div class="slide">
+      <img src="img/Ferrari.png" alt="Car 3">
+      <div class="car-info">
+        <h3>Ferrari SF90 Stradale</h3>
+        <p>$250,000</p>
+        <a href="https://www.ferrari.com/en-EN/auto/sf90-stradale" target="_blank">
+          <button>Details</button>
+        </a>
+      </div>
+    </div>
+
+    <!-- รูปซ้ำเพื่อให้สไลด์ลื่น -->
+    <div class="slide">
+      <img src="img/GTR.png" alt="Car 4">
+      <div class="car-info">
+        <h3>Nissan GTR</h3>
+        <p>$200,000</p>
+        <a href="https://www.nissan.co.th/vehicles/new-vehicles/new-gt-r.html" target="_blank">
+          <button>Details</button>
+        </a>
+      </div>
+    </div>
+
+    <div class="slide">
+      <img src="img/Buga.png" alt="Car 5">
+      <div class="car-info">
+        <h3>Bugati Chiron</h3>
+        <p>$175,000</p>
+        <a href="https://www.bugatti.com/en/models/chiron" target="_blank">
+          <button>Details</button>
+        </a>
+      </div>
+    </div>
+
+    <div class="slide">
+      <img src="img/Muslung.png" alt="Car 6">
+      <div class="car-info">
+        <h3>Forf Mustang GT</h3>
+        <p>$150,000</p>
+        <a href="https://ford-mustang-thailand.com/th/car/FORD-MUSTANG/FORD-MUSTANG-GT" target="_blank">
+          <button>Details</button>
+        </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- Popup Box -->
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <span class="close" onclick="closePopup()">&times;</span>
+    <h2 id="popup-title"></h2>
+    <p id="popup-description"></p>
+  </div>
+</div>
+
+<script src="Sport Car.java"></script>
+</body>
+</html>
